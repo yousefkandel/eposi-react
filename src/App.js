@@ -11,7 +11,6 @@ import Cart from "./pages/Cart";
 // Auth
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import ProtectedRoute from "./Components/ProtectedRoute";
 import ProductArv from "./pages/ProductArv";
 import SingleArv from "./Components/singleA/SingleArv";
 import NotFound from "./Components/NotFound/NotFound";
@@ -38,9 +37,7 @@ function App() {
         <Route
           path="/cart"
           element={
-            <ProtectedRoute>
               <Cart />
-            </ProtectedRoute>
           }
         />
       </Routes>
