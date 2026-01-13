@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eposi-react/static/css/main.cccdb44c.css",
-    "main.js": "/eposi-react/static/js/main.18c920e8.js",
+    "main.js": "/eposi-react/static/js/main.ed0da547.js",
     "static/media/fontawesome-webfont.svg@v=4.7.0": "/eposi-react/static/media/fontawesome-webfont.svg@v=4.7.c1e38fd9e0e74ba58f7a.0",
     "static/media/ionicons.svg@v=2.0.0": "/eposi-react/static/media/ionicons.svg@v=2.0.b45d332f6829d6813600.0",
     "static/media/ionicons.ttf@v=2.0.0": "/eposi-react/static/media/ionicons.ttf@v=2.0.1fa6a1e8581aaedf7344.0",
@@ -77,10 +77,10 @@
     "static/media/list-hover.webp": "/eposi-react/static/media/list-hover.379bb5ea918869974996.webp",
     "static/media/list.webp": "/eposi-react/static/media/list.093de6e0590658da7f00.webp",
     "main.cccdb44c.css.map": "/eposi-react/static/css/main.cccdb44c.css.map",
-    "main.18c920e8.js.map": "/eposi-react/static/js/main.18c920e8.js.map"
+    "main.ed0da547.js.map": "/eposi-react/static/js/main.ed0da547.js.map"
   },
   "entrypoints": [
     "static/css/main.cccdb44c.css",
-    "static/js/main.18c920e8.js"
+    "static/js/main.ed0da547.js"
   ]
 }
