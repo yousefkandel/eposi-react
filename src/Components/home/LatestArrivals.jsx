@@ -31,13 +31,13 @@ const LatestArrivals = () => {
                   {product.label?.includes("new") && <span className="new">New</span>}
 <Link to={`/product-arv/${product.id}`}>
   <img
-  src={product.img1}
+  src={product.image}
   alt={product.title}
   className="img-fluid"
 />
 
 <img
-  src={product.img2}
+  src={product.imageHover}
   alt={product.title}
   className="img-fluid"
 />
@@ -50,7 +50,7 @@ const LatestArrivals = () => {
     addToCart(
       {
         ...product,
-        image: product.img1 // 👈 ده الحل
+        image: product.image // 👈 ده الحل
       },
       1
     )

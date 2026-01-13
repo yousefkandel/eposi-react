@@ -3,6 +3,10 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import { CartProvider } from "./context/CartContext";
 import { AuthProvider } from "./context/AuthContext";
+// CSS
+import "./assets/css/vendors.css";
+import "./assets/css/style.css";
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <AuthProvider >

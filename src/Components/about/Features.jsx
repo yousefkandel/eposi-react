@@ -1,4 +1,5 @@
 import { features } from "../data/aboutData";
+import aboutImg from "../../assets/img/banners/slider-banner2.webp";
 
 const Features = () => {
   return (
@@ -23,7 +24,7 @@ const Features = () => {
       </div>
 
       <div className="about-feature-banner col-md-5 col-12">
-        <img src="assets/img/banners/slider-banner2.webp" className="img-fluid" alt="" />
+        <img src={aboutImg} className="img-fluid" alt="" />
       </div>
     </div>
     </div>

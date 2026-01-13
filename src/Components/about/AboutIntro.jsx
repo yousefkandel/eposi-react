@@ -1,3 +1,5 @@
+import aboutImg from "../../assets/img/banners/img2-middle-eposi1.webp";
+
 const AboutIntro = () => {
   return (
     <div className="container">
@@ -5,7 +7,7 @@ const AboutIntro = () => {
       <div className="row row-30">
         <div className="col-lg-6">
           <div className="about-image">
-            <img src="assets/img/banners/img2-middle-eposi1.webp" className="img-fluid" alt="" />
+            <img src={aboutImg} className="img-fluid" alt="" />
           </div>
         </div>
 

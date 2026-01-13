@@ -12,7 +12,6 @@ import Cart from "./pages/Cart";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import ProductArv from "./pages/ProductArv";
-import SingleArv from "./Components/singleA/SingleArv";
 import NotFound from "./Components/NotFound/NotFound";
 
 function App() {

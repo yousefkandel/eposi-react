@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
 import { useCart } from "../../context/CartContext";
+import p1 from "../../assets/img/logo.webp";
 
 function Navbar() {
   const { user, logout } = useAuth();
@@ -34,7 +35,7 @@ function Navbar() {
                   <img
                     width="93"
                     height="25"
-                    src="/assets/img/logo.webp"
+                    src={p1}
                     className="img-fluid"
                     alt="Logo"
                   />
