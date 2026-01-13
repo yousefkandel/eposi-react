@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/eposi-react/static/css/main.3a33b830.css",
+    "main.js": "/eposi-react/static/js/main.99b99f0c.js",
+    "static/media/slick.svg": "/eposi-react/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/eposi-react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/eposi-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/eposi-react/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/eposi-react/index.html",
+    "main.3a33b830.css.map": "/eposi-react/static/css/main.3a33b830.css.map",
+    "main.99b99f0c.js.map": "/eposi-react/static/js/main.99b99f0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a33b830.css",
+    "static/js/main.99b99f0c.js"
+  ]
+}
