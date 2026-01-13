@@ -5,6 +5,7 @@ import FooterArea from "../Components/layout/FooterArea";
 import Product from "../Components/shop/Product";
 import NewsletterArea from "../Components/layout/NewsletterArea";
 import CartPage from "../Components/Cart/CartPage";
+import MobileHeader from "../Components/layout/MobileHeader";
 
 const Cart = () => {
   const breadcrumbLinks = [
@@ -15,6 +16,8 @@ const Cart = () => {
   return (
     <>
     <Navbar/>
+              <MobileHeader />
+
       <Breadcrumb title="Cart" links={breadcrumbLinks} />
 
 

@@ -6,6 +6,7 @@ import Product from "../Components/shop/Product";
 import NewsletterArea from "../Components/layout/NewsletterArea";
 import LoginPage from "../Components/Login/LoginPage";
 import RegisterPage from "../Components/Register/RegisterPage";
+import MobileHeader from "../Components/layout/MobileHeader";
 
 const Register = () => {
   const breadcrumbLinks = [
@@ -16,6 +17,8 @@ const Register = () => {
   return (
     <>
     <Navbar/>
+              <MobileHeader />
+
       <Breadcrumb title="Register" links={breadcrumbLinks} />
 
 

@@ -4,6 +4,7 @@ import Navbar from "../Components/layout/Navbar";
 import FooterArea from "../Components/layout/FooterArea";
 import Product from "../Components/shop/Product";
 import NewsletterArea from "../Components/layout/NewsletterArea";
+import MobileHeader from "../Components/layout/MobileHeader";
 
 const Shop = () => {
   const breadcrumbLinks = [
@@ -14,6 +15,8 @@ const Shop = () => {
   return (
     <>
     <Navbar/>
+              <MobileHeader />
+
       <Breadcrumb title="Shop" links={breadcrumbLinks} />
 
 

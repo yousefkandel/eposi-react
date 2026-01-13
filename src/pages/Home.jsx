@@ -7,11 +7,13 @@ import ProductWidgetArea from '../Components/home/ProductWidgetArea';
 import BannerHoverArea from '../Components/home/BannerHoverArea';
 import NewsletterArea from '../Components/layout/NewsletterArea';
 import FooterArea from '../Components/layout/FooterArea';
+import MobileHeader from '../Components/layout/MobileHeader';
 
 function Home() {
   return (
     <>
       <Navbar />
+      <MobileHeader />
       <HeroSlider/>
       <FeatureLogos/>
       <LatestArrivals />

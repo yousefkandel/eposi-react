@@ -7,6 +7,7 @@ import AboutIntro from '../Components/about/AboutIntro';
 import AboutBanners from '../Components/about/AboutBanners';
 import MissionVision from '../Components/about/MissionVision';
 import Features from '../Components/about/Features';
+import MobileHeader from '../Components/layout/MobileHeader';
 
 function About() {
     const breadcrumbLinks = [
@@ -17,6 +18,8 @@ function About() {
   return (
 <>
     <Navbar/>
+          <MobileHeader />
+
       <Breadcrumb title="About" links={breadcrumbLinks} />
 
   <AboutIntro/>

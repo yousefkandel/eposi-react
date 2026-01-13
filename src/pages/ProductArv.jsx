@@ -5,6 +5,7 @@ import Breadcrumb from '../Components/layout/Breadcrumb'
 import NewsletterArea from '../Components/layout/NewsletterArea'
 import FooterArea from '../Components/layout/FooterArea'
 import SingleArv from '../Components/singleA/SingleArv'
+import MobileHeader from '../Components/layout/MobileHeader'
 
 function ProductArv() {
      const breadcrumbLinks = [
@@ -15,6 +16,8 @@ function ProductArv() {
   return (
     <>
  <Navbar/>
+           <MobileHeader />
+
       <Breadcrumb title="Shop" links={breadcrumbLinks} />
             <SingleArv />
 
